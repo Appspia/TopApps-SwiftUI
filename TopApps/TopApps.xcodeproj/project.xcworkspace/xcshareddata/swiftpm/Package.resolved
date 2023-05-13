@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "asnetworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Appspia/ASNetworking",
+      "state" : {
+        "revision" : "68f85a89761206e55767ff3dff159a12c682405e",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "af4be924ad984cf4d16f4ae4df424e79a443d435",
+        "version" : "7.6.2"
+      }
+    }
+  ],
+  "version" : 2
+}

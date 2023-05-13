@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340BFAC82A0E367B00BAD4CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 340BFAC72A0E367B00BAD4CB /* Kingfisher */; };
+		341BD2C42A09DBBE007B6474 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2C32A09DBBE007B6474 /* AppListView.swift */; };
+		341BD2C62A09DBEC007B6474 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2C52A09DBEC007B6474 /* AppDetailView.swift */; };
+		341BD2C92A09DDE4007B6474 /* ASNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 341BD2C82A09DDE4007B6474 /* ASNetworking */; };
+		341BD2CF2A09DE26007B6474 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2CB2A09DE26007B6474 /* Preferences.swift */; };
+		341BD2D02A09DE26007B6474 /* TopAppsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2CC2A09DE26007B6474 /* TopAppsModel.swift */; };
+		341BD2D12A09DE26007B6474 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2CD2A09DE26007B6474 /* API.swift */; };
+		341BD2D22A09DE26007B6474 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2CE2A09DE26007B6474 /* Server.swift */; };
+		341BD2D92A0A21D4007B6474 /* AppListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2D82A0A21D4007B6474 /* AppListViewModel.swift */; };
+		341BD2DB2A0A252F007B6474 /* ASNetworking+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2DA2A0A252F007B6474 /* ASNetworking+Combine.swift */; };
+		341BD2E22A0A4664007B6474 /* AppListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341BD2E12A0A4664007B6474 /* AppListCell.swift */; };
 		34A476A82858CA350023D30B /* TopAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A476A72858CA350023D30B /* TopAppsApp.swift */; };
 		34A476AA2858CA350023D30B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A476A92858CA350023D30B /* ContentView.swift */; };
 		34A476AC2858CA370023D30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A476AB2858CA370023D30B /* Assets.xcassets */; };
@@ -34,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341BD2C32A09DBBE007B6474 /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
+		341BD2C52A09DBEC007B6474 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
+		341BD2CB2A09DE26007B6474 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		341BD2CC2A09DE26007B6474 /* TopAppsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAppsModel.swift; sourceTree = "<group>"; };
+		341BD2CD2A09DE26007B6474 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		341BD2CE2A09DE26007B6474 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		341BD2D82A0A21D4007B6474 /* AppListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewModel.swift; sourceTree = "<group>"; };
+		341BD2DA2A0A252F007B6474 /* ASNetworking+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASNetworking+Combine.swift"; sourceTree = "<group>"; };
+		341BD2E12A0A4664007B6474 /* AppListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListCell.swift; sourceTree = "<group>"; };
 		34A476A42858CA350023D30B /* TopApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A476A72858CA350023D30B /* TopAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAppsApp.swift; sourceTree = "<group>"; };
 		34A476A92858CA350023D30B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340BFAC82A0E367B00BAD4CB /* Kingfisher in Frameworks */,
+				341BD2C92A09DDE4007B6474 /* ASNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341BD2CA2A09DDFC007B6474 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				341BD2CB2A09DE26007B6474 /* Preferences.swift */,
+				341BD2CE2A09DE26007B6474 /* Server.swift */,
+				341BD2CD2A09DE26007B6474 /* API.swift */,
+				341BD2DA2A0A252F007B6474 /* ASNetworking+Combine.swift */,
+				341BD2CC2A09DE26007B6474 /* TopAppsModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		34A4769B2858CA350023D30B = {
 			isa = PBXGroup;
 			children = (
+				341BD2CA2A09DDFC007B6474 /* Core */,
 				34A476A62858CA350023D30B /* TopApps */,
 				34A476B72858CA370023D30B /* TopAppsTests */,
 				34A476C12858CA370023D30B /* TopAppsUITests */,
@@ -96,6 +131,10 @@
 			children = (
 				34A476A72858CA350023D30B /* TopAppsApp.swift */,
 				34A476A92858CA350023D30B /* ContentView.swift */,
+				341BD2C32A09DBBE007B6474 /* AppListView.swift */,
+				341BD2D82A0A21D4007B6474 /* AppListViewModel.swift */,
+				341BD2E12A0A4664007B6474 /* AppListCell.swift */,
+				341BD2C52A09DBEC007B6474 /* AppDetailView.swift */,
 				34A476AB2858CA370023D30B /* Assets.xcassets */,
 				34A476AD2858CA370023D30B /* Preview Content */,
 			);
@@ -143,6 +182,10 @@
 			dependencies = (
 			);
 			name = TopApps;
+			packageProductDependencies = (
+				341BD2C82A09DDE4007B6474 /* ASNetworking */,
+				340BFAC72A0E367B00BAD4CB /* Kingfisher */,
+			);
 			productName = TopApps;
 			productReference = 34A476A42858CA350023D30B /* TopApps.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +258,10 @@
 				Base,
 			);
 			mainGroup = 34A4769B2858CA350023D30B;
+			packageReferences = (
+				341BD2C72A09DDE4007B6474 /* XCRemoteSwiftPackageReference "ASNetworking" */,
+				340BFAC62A0E367B00BAD4CB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 34A476A52858CA350023D30B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +305,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A476AA2858CA350023D30B /* ContentView.swift in Sources */,
+				341BD2DB2A0A252F007B6474 /* ASNetworking+Combine.swift in Sources */,
+				341BD2C62A09DBEC007B6474 /* AppDetailView.swift in Sources */,
+				341BD2CF2A09DE26007B6474 /* Preferences.swift in Sources */,
 				34A476A82858CA350023D30B /* TopAppsApp.swift in Sources */,
+				341BD2D02A09DE26007B6474 /* TopAppsModel.swift in Sources */,
+				341BD2C42A09DBBE007B6474 /* AppListView.swift in Sources */,
+				341BD2D92A0A21D4007B6474 /* AppListViewModel.swift in Sources */,
+				341BD2D22A09DE26007B6474 /* Server.swift in Sources */,
+				341BD2E22A0A4664007B6474 /* AppListCell.swift in Sources */,
+				341BD2D12A09DE26007B6474 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +481,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appspia.TopApps;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appspia.TopApps.swiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,12 +511,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appspia.TopApps;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appspia.TopApps.swiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -583,6 +641,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		340BFAC62A0E367B00BAD4CB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		341BD2C72A09DDE4007B6474 /* XCRemoteSwiftPackageReference "ASNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Appspia/ASNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		340BFAC72A0E367B00BAD4CB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 340BFAC62A0E367B00BAD4CB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		341BD2C82A09DDE4007B6474 /* ASNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 341BD2C72A09DDE4007B6474 /* XCRemoteSwiftPackageReference "ASNetworking" */;
+			productName = ASNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34A4769C2858CA350023D30B /* Project object */;
 }

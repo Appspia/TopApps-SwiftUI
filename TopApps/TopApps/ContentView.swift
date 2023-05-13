@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            AppListView(title: "TOP FREE APPS", api: .free).tabItem {
+                Image("no-cash").renderingMode(.template)
+                Text("TOP FREE APPS")
+            }
+            AppListView(title: "PAID", api: .paid).tabItem {
+                Image("rank").renderingMode(.template)
+                Text("PAID")
+            }
+            AppListView(title: "GROSSING", api: .grossing).tabItem {
+                Image("trophy").renderingMode(.template)
+                Text("GROSSING")
+            }
+        }
     }
 }
 

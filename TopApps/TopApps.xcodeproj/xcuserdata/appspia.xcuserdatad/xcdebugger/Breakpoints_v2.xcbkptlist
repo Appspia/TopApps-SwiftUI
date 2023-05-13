@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "94B6DE04-5F4D-44B1-826D-E28814786EE1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96E36E9A-71BD-4512-B5D2-FD834EC6A020"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopApps/AppStoreView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96E36E9A-71BD-4512-B5D2-FD834EC6A020 - d53baca80099d69c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TopApps.StoreViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TopApps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/APPSPIA/Project/APPSPIA%20STUDIO/TopAppsRenewal/TopApps-SwiftUI/TopApps/TopApps/AppStoreView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "96E36E9A-71BD-4512-B5D2-FD834EC6A020 - e2f78f8bbdbe5abe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TopApps.StoreViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TopApps.StoreViewController&gt;"
+                  moduleName = "TopApps"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/APPSPIA/Project/APPSPIA%20STUDIO/TopAppsRenewal/TopApps-SwiftUI/TopApps/TopApps/AppStoreView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
