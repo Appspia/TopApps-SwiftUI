@@ -22,11 +22,11 @@ class AppListViewModel: ObservableObject {
     
     func requestData() {
         isLoading = true
-        api.request.sink { result in
-            self.isLoading = false
+        api.request.sink { [weak self] result in
+            self?.isLoading = false
             switch result {
             case .success(let items):
-                self.items = items.feed.entry
+                self?.items = items.feed.entry
             case .failure:
                 break
             }
